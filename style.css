@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #e7e5e5;
+}
+
+.header1{
+    display: flex; /* Utilise flexbox pour la disposition */
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center; /* Aligne verticalement au centre */
+    background-color: #ffffff; /* Couleur de fond du bandeau */
+    color: rgb(0, 0, 0); /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    margin: 0;
+        
+    
+    .navbar{
+        text-align: right;
+        list-style-type: none; /* Supprime les puces */
+        padding: 0; /* Supprime le padding par défaut */
+        margin: 0; /* Supprime la marge par défaut */
+        display: flex;
+        margin: 0;
+    }
+    .navbar li {
+        margin-right: 20px; /* Espace entre les éléments de la liste */
+    }
+    
+    .navbar li:last-child {
+        margin-right: 0; /* Supprime l'espace après le dernier élément */
+    }
+    
+    .navbar a {
+        text-decoration: none; /* Supprime le soulignement des liens */
+        color: #000; /* Couleur du texte des liens */
+    }
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #bca274;
+    color: white;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center; /* Aligne l'image et le texte verticalement */
+    justify-content: center; /* Centre le contenu horizontalement */
+}
+
+.profile-image {
+    margin-right: 15px; /* Espace entre l'image et le texte */
+}
+
+.profile-photo {
+    width: 100px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    border-radius: 5px; /* Arrondir légèrement les bords */
+}
+
+.speciality-text {
+    font-size: 24px; /* Taille du texte */
+    background-color: #ceb88f; /* Fond semi-transparent */
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000000; /* Couleur du texte */
+}
+
+.a-propos{
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    .text1{
+        padding: 24px;
+    }
+    
+}
+
+
+h3{
+    font-size: large;
+    color: #000;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #000000;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #bca274;
+    color: white;
+}
+
+
+
